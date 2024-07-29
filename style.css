@@ -1,0 +1,355 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* 自訂開始 */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: "Bruno Ace SC", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.headerbackground {
+    background-color: black;
+}
+
+.menu {
+    margin: 0 auto;
+    width: 1296px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu li a {
+    color: #D1D1D1;
+    display: inline-block;
+    padding: 52px 0px;
+
+}
+
+
+
+.william {
+    display: flex;
+    width: 1296px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.peopleimg {
+    max-width: 636px;
+    margin-right: 24px;
+    margin-top: 72px;
+    margin-bottom: 32px;
+}
+
+.peopletext {
+    display: inline-block;
+    width: 636px;
+    height: 528px;
+    text-align: right;
+
+}
+
+.peopletext h2 {
+    font-size: 64px;
+    color: #FFFFFF;
+    text-align: left;
+}
+
+.peopletext h1 {
+    font-size: 128px;
+    color: #00FFA3;
+
+}
+
+.peopletext a {
+    display: inline-block;
+    background-color: #FFFFFF;
+    padding: 0px 24px;
+    border-radius: 35px;
+}
+
+.peopletext img {
+    width: 24px;
+    vertical-align: middle;
+    margin-left: 4px;
+}
+
+.introductionbackground {
+    background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/background-img.png?raw=true");
+}
+
+.introductionccontainer {
+    display: flex;
+    justify-content: space-between;
+    width: 1296px;
+    margin: 0 auto;
+    padding-top: 160px;
+    padding-bottom: 160px;
+    ;
+}
+
+.introductiontext {
+    width: 526px;
+    height: 442px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.introductiontext h2 {
+    font-size: 64px;
+}
+
+.introductiontext p {
+    font-size: 24px;
+}
+
+.introductiontextimg {
+    width: 128px;
+    height: 98px;
+}
+
+.introductiontextimg img {
+    width: 32px;
+}
+
+.introductionimg {
+    width: 746px;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.imgwidthset.imgwidthset {
+    width: 196px;
+}
+
+.introductionimg img {
+    width: 306px;
+}
+
+.aboutccontainer {
+    display: flex;
+    justify-content: space-between;
+    width: 1296px;
+    margin: 0 auto;
+    align-items: center;
+    padding: 160px 0px;
+}
+
+.aboutccontainerul {
+    display: flex;
+    width: 636px;
+    height: 328px;
+    flex-wrap: wrap;
+    align-content:center;
+    gap: 24px;
+}
+
+.aboutccontainerul li {
+    width: 306px;
+    height: 148px;
+    border: 1px solid #E3E3E3;
+    padding: 16px;
+    box-shadow: 4px 4px 4px 0 rgb(0,0,0,0.08);
+}
+
+.aboutccontainerul li h3 {
+    font-size: 20px;
+
+}
+
+.aboutccontainerul li p {
+    font-size: 16px;
+}
+
+.aboutccontainertext {
+    width: 526px;
+    height: 420px;
+}
+
+.aboutccontainertext h2 {
+    font-size: 64px;
+    margin-bottom: 36px;
+}
+
+.aboutccontainertext p {
+    font-size: 24px;
+}
+
+.contactmebackground {
+    background: linear-gradient(#050014, #01021EE3);
+}
+
+.contactmecontainer {
+    width: 1296px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 96px 0px;
+    margin: 0 auto;
+}
+
+.contactmecontainer h2 {
+    font-size: 64px;
+    color: #FFFFFF;
+}
+
+.contactmecontainer h2 img {
+    width: 100px;
+    vertical-align: bottom;
+}
+
+.contactmecontainer ol {
+    width: 526px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contactmecontainer ol img {
+    width: 162px;
+}
+
+.contactmecontainer ol a {
+    display: inline-block;
+}
+
+.contactmecontainer ol a:hover {
+
+    box-shadow: 0px 0px 16px 3px #9094FFE5;
+    border-radius: 40px;
+}
+
+.projectscontainer{
+    width: 1296px;
+    margin: 0 auto;
+    padding: 160px 0px;
+}
+
+.projectstitle{
+    width: 746px;
+    margin-left: 550px;
+    margin-bottom: 16px;
+}
+
+.projectstitle h2{
+    font-size: 64px;
+}
+
+.projects-list{
+    display: flex;
+    width: 1296px;
+    justify-content: space-between;
+}
+
+.projects-list-r{
+    display: flex;
+    flex-direction: column;
+    width: 856px;
+    gap: 28px;
+}
+
+.d-flex{
+    display: flex;
+    gap: 24px;
+}
+
+.projects-list-r a {
+    display: inline-block;
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 0px 24px;
+    border-radius: 32px;
+}
+
+.seemoerimg {
+    width: 24px;
+    vertical-align: middle;
+    margin-left: 4px;
+}
+
+.projects-text{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.footer{
+    background-color: #000000;
+    text-align: center;
+    padding: 40px 0px;
+    color: #FFFFFF;
+}
+
+.footer h2{
+    font-size: 16px;
+}
+
+
